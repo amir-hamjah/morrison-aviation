@@ -1,0 +1,333 @@
+* {
+    margin: 0;
+    padding: 0;
+    outline: 0;
+}
+@font-face{
+    src: url(../fonts/Orbitron-Bold.ttf);
+    font-family: orbitron-bold;
+}
+@font-face{
+    src: url(../fonts/Comfortaa-Bold.ttf);
+    font-family: comfortaa-bold;
+}
+
+
+@font-face{
+    src: url(../fonts/Ubuntu-Regular.ttf);
+    font-family: Ubuntu;
+}
+
+.full-wrapper {
+    width: 100%;
+}
+
+.white_space {
+    width: 100%;
+    height: 20px;
+}
+
+.banner1{
+    background: url(../images/cockpit%20banner.jpg);
+    width: 100%;
+    height: 700px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.banner1::before{
+    content: '';
+    width: 100%;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.85);
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+.navbar {
+    width: 100%;
+    height: 80px;
+    background: rgba(0, 0, 0, 0.21);
+}
+
+.navbar-brand {
+    color: white !important;
+    font-family: orbitron-bold;
+}
+.navbar-collapse{
+    padding-left: 390px;
+}
+.navbar-light .navbar-nav .nav-link {
+    color: white;
+    font-family: Ubuntu;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+    color: white !important;
+}
+
+
+.btn {
+    background: linear-gradient(180deg, white, silver);
+    border: none;
+    color: black;
+    padding: 10px 30px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    cursor: pointer;
+    border-radius: 20px;
+    font-family: Ubuntu;
+    box-sizing: border-box;
+    box-shadow: 0 0 4px #fff;
+}
+
+.btn-margin {
+    margin-left: 70px;
+}
+
+.banner-head {
+    color: white;
+    font-size: 55px;
+    margin-top: 280px;
+    text-align: center;
+    font-family: orbitron-bold;
+    text-shadow: 0 0 10px white;
+}
+
+.banner-text {
+    color: white;
+    text-align: center;
+    font-size: 20px;
+    font-family: Ubuntu;
+    letter-spacing: 4px;
+}
+
+.btn-margin-two {
+    margin-left: 295px;
+}
+
+
+
+.nanosimbionik-part {
+    width: 100%;
+    height: 840px;
+    background: url(../images/Instructions.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+   
+}
+.card-group{
+    padding: 20px;
+}
+.card{
+    width: 100%;
+    height: 550px;
+    background: rgba(0, 0, 0, 0.27);
+    color: white;
+    box-shadow: 0 0 20px white;
+    padding: 20px;
+}
+.nanosimbionik-part::before {
+    content: '';
+    width: 100%;
+    height: 840px;
+    background: linear-gradient(90deg, rgba(9, 9, 16, 0.62), rgba(57, 57, 57, 0.93));
+    position: absolute;
+    left: 0;
+    box-shadow: 0 0 10px black, 0 0 20px black, 0 0 40px black;
+}
+
+.nanosimbionikcard-body {
+    max-height:700px;
+    box-sizing: border-box;
+    margin-left: 15px;
+}
+
+.header-nano {
+    font-size: 20px;
+    color: white;
+    font-family: Ubuntu;
+}
+
+.card-text {
+    max-height: 600px;
+    color: white;
+    font-size: 15px;
+    border: none;
+    
+}
+
+/*Nanosimbionik complete*/
+
+.discovery-flight{
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    line-height: 100px;
+    font-family: ubuntu;
+    letter-spacing: 10px;
+    font-size: 30px;
+    color: white;
+    font-weight: 500;
+    text-shadow: 0 0 10px black;
+}
+
+.Mechanotransduktion-banner {
+    width: 100%;
+    height: 700px;
+    background: url(../images/discovery%20flights.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.Mechanotransduktion-banner::before {
+    content: '';
+    width:100%;
+    height: 758px;
+    background: rgba(0, 0, 0, 0.68);
+    box-sizing: border-box;
+    box-shadow: 0 0 20px black;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.MechanotransduktionPart {
+    max-height: 700px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.4);
+    padding: 20px;
+    margin: 80px;
+    font-family: ubuntu;
+    color: white;
+    box-shadow: 0 0 20px white;
+}
+
+.headerMechanotransduktion {
+    font-size: 25px;
+    font-family: ubuntu;
+    color: white;
+  
+}
+
+.Mechanotransduktiontext {
+    color: white;
+    font-size: 15px;
+}
+
+.ab {
+    color: white;
+}
+
+
+.card-img-top {
+    height: 300px;
+}
+
+
+
+.ai {
+    width: 100%;
+    height: 700px;
+    background: url(../images/sight%20seing%20flight.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.ai::before {
+    content: '';
+    width: 100%;
+    height: 700px;
+    background: rgba(0, 0, 0, 0.65);
+    position: absolute;
+    left: 0;
+    top: 0;
+    box-shadow: 0 0 20px black;
+}
+.bg{
+    width: 100%;
+    height: auto;
+    background: url(../images/contact%20footer.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+.bg::before{
+    content: '';
+    width: 100%;
+    height: 363px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.49);
+    
+}
+
+.con{
+    color: #fff;
+    text-align: center;
+    font-size: 30px;
+    font-family: ubuntu;
+    letter-spacing: 14px;
+    font-weight: 700;
+    align-content: center;
+    justify-content: center;
+}
+
+
+..btn-primary{
+    background: #0080ff;
+    transition: .5s !important;
+}
+.btn-primary:hover{
+    color: #020101;
+    background: grey;
+}
+
+.footer-part{
+    width: 100%;
+    height: 50px;
+    background: black;
+}
+.social-icon{
+    line-height: 50px;
+    text-align: center;
+    font-size: 25px;
+    letter-spacing: 15px;
+
+}
+
+.social-icon a{
+    color: white;
+    text-decoration: none;
+    color: #6f6f6f;    
+    transition: .5s;
+}
+.social-icon a:hover{
+    color: white;
+}
+#topbtn{
+    background: #4242f4;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    border: none;
+    position: fixed;
+    right: 20px;
+    bottom: 60px;
+    z-index: 1000;
+    color: white;
+    transition: .3s;
+}
+#topbtn:hover{
+    background: #25259d;
+     box-shadow: 0 0 10px black, 0 0 20px white;
+}
